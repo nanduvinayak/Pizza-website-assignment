@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  .background {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: khaki;
+    text-shadow: 3px 3px 3px #ababab;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Fonts */
+  .text {
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Spectral', serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* Navigation Section */
+  nav {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: #2b2723;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Main Section */
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-image: url("../img/12-1200x600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    color: #ffd352;
+  }
+  
+  .dropdown {
+    padding: 1em 0em 1em 0em;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Buttons for Navigation and Order */
+  button,
+  a.button {
+    display: inline-block;
+    padding: 8px 16px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  button:hover,
+  a.button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the order form in order.html using Grid */
+  #order-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-items: flex-start;
+  }
+  
+  /* Styling for form labels */
+  #order-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for form inputs and select */
+  #order-form input[type="text"],
+  #order-form input[type="email"],
+  #order-form input[type="tel"],
+  #order-form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for form radio and checkbox labels */
+  #order-form input[type="radio"],
+  #order-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Styling for the additional comments textarea */
+  #order-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
